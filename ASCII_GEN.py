@@ -46,7 +46,7 @@ def save_as_text(ascii_art, image_path):
 
 if __name__ == '__main__':
     if len(sys.argv) != 4:
-        print("Usage: python ASCII_GEN.py <path_to_image> <width of desires ascii> <height of desired ascii>")
+        print("Usage: python ASCII_GEN.py <path_to_image> <width of desired ascii> <height of desired ascii>")
     else:
         image_path = sys.argv[1]
         width = sys.argv[2]
